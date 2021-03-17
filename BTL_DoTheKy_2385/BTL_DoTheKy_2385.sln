@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTL_DoTheKy_2385", "BTL_DoTheKy_2385\BTL_DoTheKy_2385.csproj", "{F6CE776D-0AA8-489C-AE51-C25F06FB499A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CE776D-0AA8-489C-AE51-C25F06FB499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CE776D-0AA8-489C-AE51-C25F06FB499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CE776D-0AA8-489C-AE51-C25F06FB499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CE776D-0AA8-489C-AE51-C25F06FB499A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6E5F15A-EEA3-42A2-9A74-0A52184D827D}
+	EndGlobalSection
+EndGlobal

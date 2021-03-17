@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLyLichBay">
+  <DataContextMoniker Name="/QLyLichBayDataContext" />
+  <nestedChildShapes>
+    <classShape Id="365ce834-bf09-4cb7-82c9-1f03e5e1dfc6" absoluteBounds="0.625, 5.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8b81216-102e-4a32-aa0c-ec23ed439c55" absoluteBounds="0.64000000000000012, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="333a2a8f-400e-4aec-9914-709bd90526f0" absoluteBounds="0.625, 2.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/QLyLichBayDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bdbb75a-db35-4b96-9eab-a126a10029e4" absoluteBounds="0.64, 3.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.625 : 5.75); (1.625 : 5.2901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="365ce834-bf09-4cb7-82c9-1f03e5e1dfc6" />
+        <classShapeMoniker Id="333a2a8f-400e-4aec-9914-709bd90526f0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.1875 : 5.75); (2.1875 : 5.2901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Role/Role_User1" />
+      <nodes>
+        <classShapeMoniker Id="365ce834-bf09-4cb7-82c9-1f03e5e1dfc6" />
+        <classShapeMoniker Id="333a2a8f-400e-4aec-9914-709bd90526f0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9ef8ad74-3d11-4da6-88cc-18a7b63ea6dc" absoluteBounds="0.625, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Office" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8072f78b-6fb6-4b40-92cc-5d89d11a277f" absoluteBounds="0.64000000000000012, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.625 : 2.27089680989583); (1.625 : 2.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Office/Office_User" />
+      <nodes>
+        <classShapeMoniker Id="9ef8ad74-3d11-4da6-88cc-18a7b63ea6dc" />
+        <classShapeMoniker Id="333a2a8f-400e-4aec-9914-709bd90526f0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.1875 : 2.27089680989583); (2.1875 : 2.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Office/Office_User1" />
+      <nodes>
+        <classShapeMoniker Id="9ef8ad74-3d11-4da6-88cc-18a7b63ea6dc" />
+        <classShapeMoniker Id="333a2a8f-400e-4aec-9914-709bd90526f0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d0f0d867-923a-4689-a55c-cc708680ebfa" absoluteBounds="3.625, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19c2750d-daad-4a89-96e7-284fc1bca319" absoluteBounds="3.6399999999999997, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 1.09699625651042); (2.625 : 1.09699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Country/Country_Office" />
+      <nodes>
+        <classShapeMoniker Id="d0f0d867-923a-4689-a55c-cc708680ebfa" />
+        <classShapeMoniker Id="9ef8ad74-3d11-4da6-88cc-18a7b63ea6dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.625 : 0.735998128255208); (2.625 : 0.735998128255208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Country/Country_Office1" />
+      <nodes>
+        <classShapeMoniker Id="d0f0d867-923a-4689-a55c-cc708680ebfa" />
+        <classShapeMoniker Id="9ef8ad74-3d11-4da6-88cc-18a7b63ea6dc" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6043de1f-9b8d-47ee-8f93-4281352104f7" absoluteBounds="6.875, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Aircraft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc328d9c-fd08-4af9-b034-1037d9314c94" absoluteBounds="6.89, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" absoluteBounds="3.625, 2.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Airport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64784020-1dcc-432e-8227-a83fb4dfc125" absoluteBounds="3.64, 2.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.2734375 : 1.69399251302083); (4.2734375 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Country/Country_Airport" />
+      <nodes>
+        <classShapeMoniker Id="d0f0d867-923a-4689-a55c-cc708680ebfa" />
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.01171875 : 1.69399251302083); (5.01171875 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Country/Country_Airport1" />
+      <nodes>
+        <classShapeMoniker Id="d0f0d867-923a-4689-a55c-cc708680ebfa" />
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" absoluteBounds="3.625, 5.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Route" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0988887c-157e-4555-8603-abbc0ba61043" absoluteBounds="3.6399999999999997, 5.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.80078125 : 3.82859537760417); (4.80078125 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Airport/Airport_Route" />
+      <nodes>
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.275390625 : 3.82859537760417); (5.275390625 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Airport/Airport_Route1" />
+      <nodes>
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.921875 : 3.82859537760417); (3.921875 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Airport/Airport_Route2" />
+      <nodes>
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.361328125 : 3.82859537760417); (4.361328125 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Airport/Airport_Route3" />
+      <nodes>
+        <classShapeMoniker Id="d9e88e9d-7672-408b-baf9-8bed96dbc7d4" />
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c6149d17-01b6-49fe-842c-670b8d4264b5" absoluteBounds="6.875, 4.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/QLyLichBayDataContext/Schedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="361c449f-9824-4e9b-b0be-ee97a7979266" absoluteBounds="6.89, 5.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.875 : 2.4631982421875); (7.875 : 4.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Aircraft/Aircraft_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="6043de1f-9b8d-47ee-8f93-4281352104f7" />
+        <classShapeMoniker Id="c6149d17-01b6-49fe-842c-670b8d4264b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 6.11140055338542); (6.875 : 6.11140055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Route/Route_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+        <classShapeMoniker Id="c6149d17-01b6-49fe-842c-670b8d4264b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.4375 : 2.4631982421875); (8.4375 : 4.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Aircraft/Aircraft_Schedule1" />
+      <nodes>
+        <classShapeMoniker Id="6043de1f-9b8d-47ee-8f93-4281352104f7" />
+        <classShapeMoniker Id="c6149d17-01b6-49fe-842c-670b8d4264b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 5.61820027669271); (6.875 : 5.61820027669271)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLyLichBayDataContext/Route/Route_Schedule1" />
+      <nodes>
+        <classShapeMoniker Id="eac46d0b-6d00-4b16-8d7c-5a39468530ba" />
+        <classShapeMoniker Id="c6149d17-01b6-49fe-842c-670b8d4264b5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
